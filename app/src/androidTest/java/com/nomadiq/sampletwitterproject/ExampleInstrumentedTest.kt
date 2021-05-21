@@ -1,4 +1,4 @@
-package com.nomadiq.storeproject
+package com.nomadiq.sampletwitterproject
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

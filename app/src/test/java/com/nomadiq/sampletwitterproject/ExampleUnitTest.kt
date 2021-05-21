@@ -1,4 +1,4 @@
-package com.nomadiq.storeproject
+package com.nomadiq.sampletwitterproject
 
 import org.junit.Test
 

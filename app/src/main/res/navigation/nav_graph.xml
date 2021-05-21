@@ -7,27 +7,11 @@
 
     <fragment
         android:id="@+id/mainFragment"
-        android:name="com.nomadiq.storeproject.ui.MainFragment"
+        android:name="com.nomadiq.sampletwitterproject.ui.uiview.MainFragment"
         android:label="fragment_main">
-        <action
-            android:id="@+id/action_mainFragment_to_detailFragment"
-            app:destination="@id/detailFragment" />
+        <action android:id="@+id/action_mainFragment_to_detailFragment" />
         <argument
             android:name="itemname"
             app:argType="string" />
     </fragment>
-
-    <fragment
-        android:id="@+id/detailFragment"
-        android:name="com.nomadiq.storeproject.ui.DetailFragment"
-        android:label="fragment_detail"
-        tools:layout="@layout/fragment_detail">
-        <argument
-            android:name="itemname"
-            app:argType="string" />
-<!--        <argument-->
-<!--            android:name="selectedCharacter"-->
-<!--            app:argType="com.backbase.movieproject.ui.BreakingBadCharacter" />-->
-    </fragment>
-
 </navigation>

@@ -6,13 +6,13 @@
 
         <variable
             name="viewModel"
-            type="com.nomadiq.storeproject.ui.FragmentMainViewModel" />
+            type="com.nomadiq.sampletwitterproject.ui.uiview.FragmentMainViewModel" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".ui.MainActivity">
+        tools:context=".ui.uiview.MainActivity">
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/recyclerView"
@@ -24,7 +24,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="parent"
-            app:listData="@{viewModel.characters}"
-            tools:listitem="@layout/adapter_character_item" />
+            app:listData="@{viewModel.tweets}"
+            tools:listitem="@layout/adapter_tweet_item" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>
