@@ -15,6 +15,10 @@ class FragmentMainViewModelTest {
         viewModel = FragmentMainViewModel()
     }
 
+    @Test
+    fun retrieve_user_tweet() {
+    }
+
     @After
     fun tearDown() {
 
