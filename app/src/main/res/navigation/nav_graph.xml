@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/mainFragment"
-        android:name="com.nomadiq.sampletwitterproject.ui.uiview.MainFragment"
+        android:name="com.nomadiq.sampletwitterproject.presentation.MainFragment"
         android:label="fragment_main">
         <action android:id="@+id/action_mainFragment_to_detailFragment" />
         <argument

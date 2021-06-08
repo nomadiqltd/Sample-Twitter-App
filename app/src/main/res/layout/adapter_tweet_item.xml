@@ -7,7 +7,7 @@
 
         <variable
             name="tweet"
-            type="com.nomadiq.sampletwitterproject.ui.data.Tweet" />
+            type="com.nomadiq.sampletwitterproject.domain.entity.Tweet" />
 
     </data>
 
